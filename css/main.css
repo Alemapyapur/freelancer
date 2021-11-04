@@ -1,5 +1,132 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@200;400;500;700;900&display=swap');
+
+/* ------------------------ General--------------------------------- */
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ------------------------ Navbar --------------------------------- */
+.menu {
+    height: 5rem;
+    background-color: rgb(49, 49, 68);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ececec;
+}
+
+.menu-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.container-home {
+  height: 90vh;
+  background-color: rgb(6, 82, 74);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ececec;
+  line-height: 2;
+}
+
+.title-container-home {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.container-home img {
+  width: 15%;
+}
+
+.container-center {
+  width: 60%;
+}
+
+.container-services {
+  width: 60%;
+}
+
+.line { 
+  width: 100px; 
+  height: 1.5px; 
+  background:white; 
+  border: solid 1px white; 
+  display: inline-block; 
+} 
+
+.services {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+
+
+/******************** SECCION PORTAFOLIO **********************/
+.page-box {
+background-color: white;
+}
+
+.title-portafolio {
+font-size: 40px;
+font-weight: bolder;
+text-align: center;
+color: gray;
+}
+
+.page-img {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 20px;
+grid-auto-flow: row;
+grid-template-areas:
+"img-cabin img-cake img-circus"
+"img-game img-safe img-submarine";
+justify-items: stretch;
+justify-items: center;
+margin: 50px 100px 50px 100px;
+}
+
+img {
+object-fit:contain ;
+width: 100%;
+}
 /******************** SECCION PORTAFOLIO **********************/
 .page-box {
   background-color: white;
@@ -32,20 +159,20 @@ img {
 }
 
                      /* about */
-.container-about {
+ .container-about {
   background: cyan;
 }
 .container-title{
   text-align: center;
 }
-.line  {
+/* .line  {
   height: 8px;
   width: 2px;
   background: black;
   display: inline-block;
   justify-content: center;
   
-}
+} */
 
 .lines {
   display: flex;
@@ -59,5 +186,73 @@ flex-direction: column;
 
 .btn-texto{
   background: cyan;
+} */
+.titulo{
+  margin-left:350px;
+  
 }
+.input-texto {
 
+   /* padding-bottom: 25px;  */
+   background-color: rgb(255, 255, 255);
+   
+   display: block;
+   line-height: 25px;
+   padding: 0 10px;
+   margin: 5px auto;
+   border:0;
+   /* outline: none; */
+   text-align: left;
+ }
+
+ .btn-texto {
+   background-color: rgb(140, 202, 231);
+   border-radius: 20px;
+   display: block;
+   line-height: 25px;
+   padding: 0 10px;
+   margin: 5px auto;
+   border:0;
+   outline: none;
+   text-align: center
+ }
+
+footer{
+  width: 100%;
+  background-color: rgb(49, 49, 68);
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.containerFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.copyright{
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(49, 49, 68);
+  color: #fff;
+  font-size: 20px;
+}
+.colum1, .colum2, .colum3{
+  max-width: 400px;
+  padding: 13px;
+  margin: 10px;
+}
+.subTitle{
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+.designIcon{
+font-size: 26px;
+}
+.linkColum3{
+  text-decoration: none;
+  color: #18bc9c;
+}
