@@ -94,3 +94,44 @@ ul {
     justify-content: center;
     font-size: 1.2rem;
 }
+
+/* --------------FOOTER DIANA--------------------- */
+footer{
+    width: 100%;
+    background-color: rgb(49, 49, 68);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.copyright{
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(49, 49, 68);
+    color: #fff;
+    font-size: 20px;
+}
+.colum1, .colum2, .colum3{
+    max-width: 400px;
+    padding: 13px;
+    margin: 10px;
+}
+.subTitle{
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+.designIcon{
+ font-size: 26px;
+}
+.linkColum3{
+    text-decoration: none;
+    color: #18bc9c;
+}
