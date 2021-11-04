@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@200;400;500;700;900&display=swap');
 
 /* ------------------------ General--------------------------------- */
@@ -93,6 +94,39 @@ ul {
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
+}
+
+
+
+/******************** SECCION PORTAFOLIO **********************/
+.page-box {
+  background-color: white;
+}
+
+.title-portafolio {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  color: gray;
+}
+
+.page-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "img-cabin img-cake img-circus"
+  "img-game img-safe img-submarine";
+  justify-items: stretch;
+  justify-items: center;
+  margin: 50px 100px 50px 100px;
+}
+
+img {
+  object-fit:contain ;
+  width: 100%;
 }
 
 /* --------------FOOTER DIANA--------------------- */
