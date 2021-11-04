@@ -1,112 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******************** SECCION PORTAFOLIO **********************/
 .page-box {
   background-color: white;
@@ -137,3 +30,32 @@ img {
   object-fit:contain ;
   width: 100%;
 }
+
+                     /* about */
+.container-about {
+  background: cyan;
+}
+.container-title{
+  text-align: center;
+}
+.line  {
+  height: 8px;
+  width: 2px;
+  background: black;
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.lines {
+  display: flex;
+  justify-content: center;
+}
+
+.text-about{
+text-align: justify;
+flex-direction: column;
+}
+
+
+
