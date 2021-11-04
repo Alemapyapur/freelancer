@@ -57,5 +57,7 @@ text-align: justify;
 flex-direction: column;
 }
 
-
+.btn-texto{
+  background: cyan;
+}
 
