@@ -1,84 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <nav class="menu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelancer Landing Page</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <nav class="menu">
         <a class="logo" href="/"> START BOOTSTRAP </a>
         <ul class="menu-links">
-            <li  class="nav-item"> <a href="#"> PORTFOLIO </a> </li>
-            <li  class="nav-item"> <a href="#"> ABOUT </a> </li>
-            <li  class="nav-item"> <a href="#"> CONTACT </a> </li>
+          <li class="nav-item"><a href="#PortfolioSection"> PORTFOLIO </a></li>
+          <li class="nav-item"><a href="#AboutSection"> ABOUT </a></li>
+          <li class="nav-item"><a href="#ContacSection"> CONTACT </a></li>
         </ul>
-    </nav>
-  
-    <section class="container-home ">
-        <img src="assets/images/profile.png" alt="icon-job">
+      </nav>
+
+      <section class="container-home" >
+        <img src="assets/images/profile.png" alt="icon-job" />
         <h1 class="title-container-home">START BOOTSTRAP</h1>
-        <span class="line"></span> 
-        <span class="fas fa-star"></span> 
-        <span class="line"></span> 
+        <section class="line-start">
+          <span class="line"></span>
+          <span class="fas fa-star"></span>
+          <span class="line"></span>
+        </section>
         <section class="container-services">
-            <ul class="services">
-                <li class="service-item"> Web Developer - </li>
-                <li class="service-item"> Graphic Artist - </li>
-                <li class="service-item"> User Experiencie Designer </li>
-            </ul>
+          <h3 class="services">
+            Web Developer - Graphic Artist - User Experience Designer
+          </h3>
         </section>
-    </section>
+      </section>
 
-
-
-    <section class="page-box">
+      <section class="page-box" id="PortfolioSection">
         <h1 class="title-portafolio">PORTFOLIO</h1>
-        <span class="line"></span>
-        <span class="fas fa-star"></span>
-        <span class="line"></span>
+        <section class="line-start">
+          <span class="line-dark"></span>
+          <span class="fas fa-star"></span>
+          <span class="line-dark"></span>
+        </section>
         <section class="page-img">
-            <img class="img-cabin" src="./assets/images/portfolio/cabin.png" alt="cabin">
-            <img class="img-cake" src="./assets/images/portfolio/cake.png" alt="cake">
-            <img class="img-circus" src="./assets/images/portfolio/circus.png" alt="circus">
-            <img class="img-game" src="./assets/images/portfolio/game.png" alt="game">
-            <img class="img-safe" src="./assets/images/portfolio/safe.png" alt="safe">
-            <img class="img-submarine" src="./assets/images/portfolio/submarine.png" alt="submrine">
+          <img
+            class="img-cabin"
+            src="./assets/images/portfolio/cabin.png"
+            alt="cabin"
+          />
+          <img
+            class="img-cake"
+            src="./assets/images/portfolio/cake.png"
+            alt="cake"
+          />
+          <img
+            class="img-circus"
+            src="./assets/images/portfolio/circus.png"
+            alt="circus"
+          />
+          <img
+            class="img-game"
+            src="./assets/images/portfolio/game.png"
+            alt="game"
+          />
+          <img
+            class="img-safe"
+            src="./assets/images/portfolio/safe.png"
+            alt="safe"
+          />
+          <img
+            class="img-submarine"
+            src="./assets/images/portfolio/submarine.png"
+            alt="submrine"
+          />
         </section>
-    </section>
+      </section>
 
-    <footer>
-        <section class="containerFooter">
-          
-            <div class="colum1">
-                <h3 class="subTitle">Location</h3>
-                <p>3481 Melrose Place Beverly Hills, CA 90210</p>
-            </div>
-            <div class="colum2">
-                <h3 class="subTitle">Around the web</h3>
-
-                <div class="containerIcons">
-                    <i class="fab fa-facebook designIcon"></i>
-                    <i class="fab fa-google-plus designIcon"></i>
-                    <i class="fab fa-twitter-square designIcon"></i>
-                    <i class="fab fa-twitter-square designIcon"></i>
-                    <i class="fab fa-dribbble-square designIcon"></i>
-                </div>
-            </div>
-            <div class="colum3">
-               <h3 class="subTitle">ABOUT FREELANCER</h3>
-               Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="linkColum3"> Start Bootstrap</a>.
-            </div>
-          
+      <section class="container-about" id="AboutSection">
+        <h2 class="container-title">ABOUT</h2>
+        <section class="line-start">
+          <span class="line"></span>
+          <span class="fas fa-star"></span>
+          <span class="line"></span>
         </section>
-       
-    </footer>
-    
-    <section class="copyright">
-        Copyright © Your Website 2022
-    </section>
 
-</body>
+        <section class="about-column">
+          <article class="text-column">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS and
+            JavaScript as well as optional LESS stylesheets for easy
+            customization.
+          </article>
+          <article class="text-column">
+            Whether you're a student looking to showcase your work, a
+            professional looking to attract clients, or a graphic artist looking
+            to share your projects, this template is the perfect starting point!
+          </article>
+        </section>
+
+        <button class="fas fa-download button-download">Download Theme</button>
+      </section>
+
+      <form id="ContacSection" class="formLogin">
+        <section class="title-contact">
+          <h1>CONTACT ME</h1>
+          <section class="line-start">
+            <span class="line-dark"></span>
+            <span class="fas fa-star"></span>
+            <span class="line-dark"></span>
+          </section>
+        </section>
+
+        <input type="text" placeholder="Name" class="input-texto" />
+        <input type="text" placeholder="Email Address" class="input-texto" />
+        <input type="text id="nombre" placeholder="Phone Number"
+        class="input-texto" />
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Message"
+          class="input-texto"
+        />
+
+        <button class="btn-texto">Send</button>
+      </form>
+      <!-- SECTION FOOTER -->
+
+      <footer >
+        <section class="container-footer">
+          <section class="colum1">
+            <h3 class="sub-title">LOCATION</h3>
+            <p class="text-footer">
+              3481 Melrose Place Beverly Hills, CA 90210
+            </p>
+          </section>
+          <section class="colum2">
+            <h3 class="sub-title">AROUND THE WEB</h3>
+
+            <section class="container-icons">
+              <i class="fab fa-facebook-f design-icon"></i>
+              <i class="fab fa-google-plus-g design-icon"></i>
+              <i class="fab fa-twitter design-icon"></i>
+              <i class="fab fa-linkedin-in design-icon"></i>
+              <i class="fas fa-volleyball-ball design-icon"></i>
+            </section>
+          </section>
+          <section class="colum3">
+            <h3 class="sub-title">ABOUT FREELANCER</h3>
+            <p class="text-footer">
+              Freelance is a free to use, open source Bootstrap theme created by
+              <a href="#" class="link-colum3"> Start Bootstrap.</a>
+            </p>
+          </section>
+        </section>
+        <section class="copyright">Copyright © Your Website 2021</section>
+      </footer>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
